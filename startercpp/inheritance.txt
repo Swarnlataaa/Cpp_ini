@@ -1,0 +1,59 @@
+class ClassA
+{
+    // body of ClassA
+};
+
+// derived from ClassA
+class ClassB : public ClassA
+{
+    // body of ClassB
+};
+
+// derived from ClassA
+class ClassC : public ClassA
+{
+    // body of ClassC
+};
+
+Multilevel Inheritance
+
+    class ClassA
+{
+    // body of ClassA
+};
+
+// derived from ClassA
+class ClassB : public ClassA
+{
+    // body of ClassB
+};
+
+// derived from ClassB
+class ClassC : public ClassB
+{
+    // body of ClassC
+};
+
+Hybrid Inheritance
+
+    class ClassA
+{
+    // body of ClassA
+};
+
+class ClassB
+{
+    // body of ClassB
+};
+
+// derived from ClassA and ClassA
+class ClassC : public ClassA, public ClassB
+{
+    // body of ClassC
+};
+
+// derived from ClassC
+class ClassD : public ClassC
+{
+    // body of ClassD
+};
